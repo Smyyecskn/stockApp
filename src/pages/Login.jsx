@@ -90,7 +90,7 @@ const Login = () => {
                     onBlur={handleBlur} //inputtan ayrıldıgımızı belirten event onBlur,
                     //onBlur oldugunu formıge gosteren ozellık handleBlur
                     onChange={handleChange}
-                    error={touched.email && Boolean(errors.email)}
+                    error={ touched.email && Boolean(errors.email)}
                     helperText={errors.email} //Atta minik hata yazılarını muıden gelen bir özellik errorun true olmasına gore çıkarır.
                   />
 
